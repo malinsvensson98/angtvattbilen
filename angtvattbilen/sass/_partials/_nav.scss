@@ -1,0 +1,12 @@
+/*_nav.scss */
+
+nav {
+    background-color: $maincolor !important;
+    a {
+        color: $darkgreen !important;
+    }
+    a:hover {
+        color: white !important;
+        background-color: $darkgreen !important;
+    }
+}

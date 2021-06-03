@@ -1,0 +1,63 @@
+/*_footer.scss */
+
+footer {
+    position: absolute;
+    background-color: $maincolor;
+    margin: auto;
+    font-size: 1.1em;
+    width: 100%;
+    a {
+        color: black;
+    }
+}
+
+.row {
+    padding-left: 230px;
+    margin-top: 15px;
+    max-width: 1150px;
+    margin: auto;
+}
+
+footer a:hover {
+    color: $darkgreen;
+}
+
+.column {
+    line-height: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 33.33%;
+    float: left;
+}
+
+.column3 {
+    line-height: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 33.33%;
+    float: right;
+}
+
+.column2 {
+    line-height: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 33.33%;
+    float: right;
+}
+
+
+/* Under footer */
+
+.bottomOffooter {
+    font-size: 0.8em;
+    text-align: center;
+    background-color: $maincolor;
+    margin-top: 100px !important;
+    line-height: 20px;
+    margin: auto;
+}
+
+h4 {
+    font-weight: bolder;
+}

@@ -1,0 +1,410 @@
+/*_everything.scss */
+
+
+/* Front-page.php */
+
+body {
+    position: relative;
+    font-family: $mainfont;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 2.2em;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+
+/* Bilder */
+
+img {
+    max-width: 100%;
+}
+
+// 404 - sidan finns ej 
+.sendHere {
+    h1 {
+        font-size: 2em;
+        text-align: center;
+        padding-top: 10%;
+    }
+}
+
+.um-profile-nav {
+    display: none !important;
+}
+
+.um-header {
+    border: none !important;
+}
+
+// Medarbetar-sidan med en div som kontrollerar 
+.members {
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+    font-size: 0.8em;
+    h1 {
+        font-weight: bold;
+    }
+}
+
+// Bilduppladdning
+.imagePage {
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+    text-align: left !important;
+    h1 {
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+    h4 {
+        text-align: center;
+        font-size: 1.3em;
+        max-width: 700px;
+        margin: auto;
+    }
+    input[type=submit] {
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+// Spara sidan
+.save {
+    a {
+        color: $darkgreen !important;
+    }
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+    label {
+        text-align: left !important;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+}
+
+// Single-post sidan
+.theWholePage {
+    margin: auto;
+    text-align: center;
+    max-width: 700px !important;
+    h1 {
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+}
+
+// Se sparade arbeten sidan
+.aview {
+    margin: auto;
+    text-align: center !important;
+    a {
+        color: $darkgreen;
+        text-align: center;
+    }
+    a:hover {
+        color: $maincolor;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 1.8em;
+    }
+    table {
+        min-width: 1550px;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 98%;
+        max-width: 1800px;
+        margin: auto;
+        font-size: 1.1em;
+    }
+    td,
+    th {
+        border: 1px solid black;
+        padding-top: 1.3%;
+        padding-bottom: 1.3%;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    tr:nth-child(odd) {
+        background-color: #dddddd;
+    }
+    .label {
+        background-color: $darkgreen !important;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+// Enskilda inlagg
+.viewSingle {
+    border: 3px solid $darkgreen;
+    padding: 3%;
+    text-align: left;
+    margin: auto;
+    width: 50%;
+    max-width: 1000px;
+    line-height: 30px;
+}
+
+.singleField {
+    input {
+        border: none;
+        outline: none;
+    }
+}
+
+.saveUpdateWork {
+    display: none;
+}
+
+.updateWorkVisible {
+    display: block;
+}
+
+input[type=text],
+input[type=select] {
+    max-width: 700px;
+    cursor: pointer;
+    margin: auto;
+    font-size: 1em;
+}
+
+textarea {
+    max-width: 700px;
+    cursor: pointer;
+    margin: auto;
+    font-size: 1em;
+}
+
+select {
+    max-width: 700px;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: $darkgreen;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    width: 98%;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+    max-width: 700px;
+}
+
+.loginPage {
+    font-size: 1.1em;
+    img {
+        padding-top: 40px;
+        max-width: 370px;
+        min-width: 350px;
+        padding-top: 80px;
+        margin-bottom: 30px;
+    }
+    input {
+        padding: 6px;
+        margin-top: 9px;
+        margin-bottom: 17px;
+        max-width: 400px;
+        font-size: 0.9em;
+    }
+    input[type=button],
+    input[type=submit],
+    input[type=reset] {
+        background-color: $darkgreen;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        width: 180px;
+        cursor: pointer;
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
+        margin-top: 1%;
+        border-radius: 2px;
+    }
+}
+
+label {
+    font-size: 1.1em;
+}
+
+a {
+    color: $darkgreen;
+}
+
+a:hover {
+    color: $maincolor;
+}
+
+.deleteButton {
+    background-color: $maincolor;
+}
+
+label {
+    font-weight: bold;
+}
+
+// Ram runt input-falt for inkopslistan
+.youCantSeeThis {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+// Bilduppladdning
+.imagePage {
+    max-width: 700px;
+    h1 {
+        margin-bottom: 0;
+    }
+    font-size: 1em;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+    .elementor-button {
+        color: white !important;
+        background-color: $darkgreen !important;
+    }
+    label {
+        font-weight: bold !important;
+        margin-top: 2% !important;
+    }
+    max-width: 98%;
+    button {
+        color: white;
+        background-color: $darkgreen;
+        padding: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 2%;
+        width: 16%;
+        cursor: pointer;
+    }
+    input {
+        padding: 1.3%;
+        margin-top: 1%;
+        width: 90%;
+        max-width: 700px;
+    }
+}
+
+// Enskilda inlagg
+.acfef-delete-button {
+    color: white !important;
+    background-color: rgb(173, 31, 31) !important;
+    padding: 2%;
+    max-width: 700px;
+    width: 30%;
+    font-size: 1em;
+}
+
+// Knapp i tabellen for sparade arbeten
+.deleteWork {
+    color: white !important;
+    background-color: rgb(173, 31, 31) !important;
+    padding: 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* NEDAN AR KODEN FR INKOPSLISTAN */
+
+.updateBuy {
+    display: none;
+    background-color: red;
+}
+
+// Inkop
+.editBuyPossible {
+    display: inline-block !important;
+    border-top-style: dashed !important;
+    border-right-style: dashed !important;
+    border-left-style: dashed !important;
+    border-bottom-style: dashed !important;
+}
+
+.updateBuyVisible {
+    display: inline-block !important;
+}
+
+// Inkop nedanfor
+.buyWork {
+    max-width: 100%;
+}
+
+// Div for inkop
+.buyWork,
+.divCreateBuy {
+    max-width: 98%;
+    margin: auto;
+    button {
+        color: white;
+        background-color: $darkgreen;
+        padding: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 1%;
+        cursor: pointer;
+        padding-top: 1.2%;
+        font-size: 1em;
+    }
+    input {
+        padding: 1.3%;
+        margin-top: 1%;
+        max-width: 700px;
+        font-size: 1em;
+    }
+    i {
+        font-size: 1.1em;
+    }
+}
+
+// Hela diven for inkop
+.inkop {
+    width: 98%;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+// Faltet for inkop
+.newTitle {
+    width: 50%;
+}
+
+// Spara knappen
+.updateBuy {
+    width: 38%;
+    .deleteBuy {
+        display: none;
+    }
+}
+
+// Lagg till knappen
+.createBuy {
+    width: 53%;
+}

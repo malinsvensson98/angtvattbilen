@@ -1,0 +1,15 @@
+/* 
+Theme name: Angtvattvattbilen
+Author: Malin Svensson 
+Year of creating theme: 2021 
+Course: Examensarbete, Mittuniversitetet */
+
+@import "compass";
+@import "compass/reset";
+// Importera partials
+@import "_partials/variables";
+@import "_partials/everything";
+@import "_partials/footer";
+@import "_partials/nav";
+@import "_partials/responsive";
+@import "_partials/start";
